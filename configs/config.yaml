@@ -1,0 +1,12 @@
+CONFIG_NAME: 'UNet'
+
+DATA_DIR: './data/'
+GPU_ID: '0'
+WORKERS: 4
+
+MODEL_DIR: './models/'  
+MODEL_COPY: ''
+    
+BATCH_SIZE: 4  
+MAX_EPOCH: 300
+LR: 0.01
